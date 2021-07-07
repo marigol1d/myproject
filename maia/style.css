@@ -1,0 +1,44 @@
+header{
+    background-color:rgb(49, 91, 102);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    font-family: 'Cormorant Unicase', serif;
+}
+nav a{
+    color: ghostwhite;
+    font-size: 25px;
+    margin: 25px;
+    text-decoration: none;
+}
+button{
+padding: 10px 40px;
+border-radius: 25px;
+color: rgb(65, 105, 156);
+border: none;
+font-size: 20px;
+font-family: 'Cormorant Unicase', serif;
+font-weight: bold;
+cursor: pointer;
+transition: .7s;
+}
+button:hover{
+background-color:rgba(235, 235, 235, 0.788);
+transform: scale(1.1);
+}
+div{
+    text-align: center;
+    padding: 60px;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.411),rgba(0, 0, 0, 0.438)) , url(city.jpg);
+    background-size: cover;
+}
+h1{
+    color:rgb(49, 91, 102);
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: bold;
+
+}
