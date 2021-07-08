@@ -1,84 +1,84 @@
 header{
-    background-color:rgb(49, 91, 102);
+    background-color: rgb(161, 40, 56);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 body{
+    background: url("../myproject-main/new.jpg");
     margin: 0;
-    font-family: 'Cormorant Unicase', serif;
+    font-family:Helvetica;
+    font-weight: bold;
+
 }
 nav a{
-    color: rgba(245, 222, 179, 0.863);
-    font-size: 25px;
-    margin: 25px;
+    color: rgb(255, 232, 190);
+    font-size: 17px;
+    font-family:Helvetica;
+    font-weight: bold;
+    margin: 4px;
     text-decoration: none;
 }
 button{
-padding: 5px 20px;
-border-radius: 25px;
-color: rgb(65, 105, 156);
+padding: 10px 40px;
+border-radius: 5px;
+color: rgb(255, 232, 190);
+background: none;
 border: none;
 font-size: 20px;
-font-family: 'Cormorant Unicase', serif;
+font-family: Helvetica;
 font-weight: bold;
 cursor: pointer;
 transition: .7s;
 }
 button:hover{
-background-color:rgba(245, 222, 179, 0.863);
+background-color:rgb(255, 191, 108);
 transform: scale(1.1);
+}
+.page{
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }
 div{
     text-align: center;
-    padding: 230px;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.178),rgba(23, 54, 53, 0.459)) , url(city.jpg);
+    padding: 60px;
     background-size: cover;
+    
 }
 h1{
-    color:wheat;
-    font-family: 'Cormorant Unicase', serif;
-    font-weight: bold;
+    color:rgb(34, 31, 34);
+    font-size: 23px;
+}
+p{color:rgb(161, 40, 56)
 
 }
-p{
-    color: wheat;
-}
-footer{
-    background-color:rgb(49, 91, 102);
-}
+
+footer{background-color:rgb(161, 40, 56);}
 footer p{
+    color:rgb(255, 232, 190);
+    font-size: 11px;
     margin: 0;
-    padding: 70px;
-}
-button a{
-    text-decoration: none;
-    color:rgb(49, 91, 102) ;
+    padding: 120px;
 }
 @media(max-width: 500px){
- header{
+    header{
         display: block;
         text-align: center;
-padding: 10px 0;
- }
-nav{
-    margin: 24px 0;
-}
-nav a{font-size: 16px;
-   display: center;
-   margin: 10px;
-}
-h1{
-    font-size: 29 px;
-
-}
+        padding: 10px 0px;
+    }
+    nav{
+        margin: 24px 0px;
+    }
+    nav a{font-size: 16px;
+    display: center;
+margin: 10px;}
 div{ padding: 90px 20px;}
 footer p{
     margin: 0;
-
-    padding: 71px 20px}
-nav{ margin: 20px;
+    padding: 71px 20px;
 }
-
+nav{ margin:20px}
 }
